@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#091123"/>
+  <rect x="40" y="40" width="1120" height="720" rx="28" fill="none" stroke="#2E62D4" stroke-width="2"/>
+  <g transform="translate(700 170)">
+    <rect x="0" y="40" width="380" height="400" rx="30" fill="#FFFFFF"/>
+    <rect x="0" y="40" width="380" height="110" rx="30" fill="#0244C6"/>
+    <rect x="0" y="120" width="380" height="30" fill="#0244C6"/>
+    <rect x="80" y="0" width="30" height="90" rx="15" fill="#6B94E8"/>
+    <rect x="270" y="0" width="30" height="90" rx="15" fill="#6B94E8"/>
+    <g fill="#C4D5F6">
+      <rect x="40" y="190" width="60" height="50" rx="8"/><rect x="120" y="190" width="60" height="50" rx="8"/>
+      <rect x="200" y="190" width="60" height="50" rx="8"/><rect x="280" y="190" width="60" height="50" rx="8"/>
+      <rect x="40" y="265" width="60" height="50" rx="8"/><rect x="120" y="265" width="60" height="50" rx="8"/>
+      <rect x="200" y="265" width="60" height="50" rx="8"/><rect x="280" y="265" width="60" height="50" rx="8"/>
+      <rect x="40" y="340" width="60" height="50" rx="8"/><rect x="120" y="340" width="60" height="50" rx="8"/>
+    </g>
+    <rect x="200" y="340" width="60" height="50" rx="8" fill="#0244C6"/>
+  </g>
+  <text x="130" y="520" font-family="Golos Text, Arial, sans-serif" font-size="360" font-weight="800" fill="#FFFFFF">15</text>
+  <rect x="140" y="600" width="420" height="10" rx="5" fill="#2E62D4"/>
+</svg>

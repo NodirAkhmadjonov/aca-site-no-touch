@@ -1,0 +1,248 @@
+{
+  "collection": {
+    "id": "aca-od",
+    "title": {
+      "uz": "Ижтимоий аҳамиятга молик маълумотлар",
+      "oz": "Ijtimoiy ahamiyatga molik ma’lumotlar",
+      "ru": "Социально значимые сведения",
+      "en": "Socially significant information"
+    },
+    "publisher": "Anti-Corruption Agency of the Republic of Uzbekistan",
+    "legal_basis": {
+      "ru": "Указ Президента УП-6247, приложение 1 — перечень социально значимых сведений",
+      "uz": "Президент фармони ПФ-6247, 1-илова — ижтимоий аҳамиятга молик маълумотлар рўйхати",
+      "oz": "Prezident farmoni PF-6247, 1-ilova — ijtimoiy ahamiyatga molik ma’lumotlar ro‘yxati",
+      "en": "Presidential Decree UP-6247, Annex 1 — list of socially significant information"
+    },
+    "license": "open",
+    "identifier_scheme": "aca-od-NNNN",
+    "updated": "2026-07-10",
+    "contact": {
+      "unit": {
+        "ru": "Финансово-экономический отдел Агентства",
+        "uz": "Агентликнинг молия-иқтисодиёт бўлими",
+        "oz": "Agentlikning moliya-iqtisodiyot bo‘limi",
+        "en": "Finance and Economics Department of the Agency"
+      },
+      "phone": "+998712020402",
+      "email": "opendata@anticorruption.uz"
+    }
+  },
+  "datasets": [
+    {
+      "id": "aca-od-0021",
+      "url": "/opendata/avtotransport",
+      "title": {
+        "ru": "Автотранспорт и здания",
+        "uz": "Автотранспорт ва бинолар",
+        "oz": "Avtotransport va binolar",
+        "en": "Vehicles and buildings"
+      },
+      "category": "property",
+      "updated": "2026-07-10",
+      "downloads": 1288,
+      "formats": [
+        "csv",
+        "xlsx"
+      ],
+      "frequency": "yearly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0012",
+      "url": "/opendata/smeta-vnebyudzhet",
+      "title": {
+        "ru": "Сведения об исполнении сметы расходов по внебюджетному фонду Агентства",
+        "uz": "Агентликнинг бюджетдан ташқари жамғармаси бўйича харажатлар сметасининг ижроси тўғрисида маълумот",
+        "oz": "Agentlikning byudjetdan tashqari jamg‘armasi bo‘yicha xarajatlar smetasining ijrosi to‘g‘risida ma’lumot",
+        "en": "Execution of the expenditure estimate of the Agency’s extra-budgetary fund"
+      },
+      "category": "budget",
+      "updated": "2026-07-08",
+      "downloads": 958,
+      "formats": [
+        "csv",
+        "xlsx",
+        "json"
+      ],
+      "frequency": "quarterly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0022",
+      "url": "/opendata/xarid-tovarlar",
+      "title": {
+        "ru": "Закупленные товары",
+        "uz": "Харид қилинган товарлар",
+        "oz": "Xarid qilingan tovarlar",
+        "en": "Goods purchased"
+      },
+      "category": "procurement",
+      "updated": "2026-07-04",
+      "downloads": 1522,
+      "formats": [
+        "csv",
+        "xlsx"
+      ],
+      "frequency": "yearly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0014",
+      "url": "/opendata/komandirovki-zarubezh",
+      "title": {
+        "ru": "О служебных командировках в зарубежные страны",
+        "uz": "Хорижий мамлакатларга хизмат сафарлари тўғрисида",
+        "oz": "Xorijiy mamlakatlarga xizmat safarlari to‘g‘risida",
+        "en": "Official trips abroad"
+      },
+      "category": "staff",
+      "updated": "2026-07-03",
+      "downloads": 1535,
+      "formats": [
+        "csv",
+        "json"
+      ],
+      "frequency": "yearly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0015",
+      "url": "/opendata/komandirovki-respublika",
+      "title": {
+        "ru": "О служебных командировках на территории Республики Узбекистан",
+        "uz": "Ўзбекистон Республикаси ҳудудидаги хизмат сафарлари тўғрисида",
+        "oz": "O‘zbekiston Respublikasi hududidagi xizmat safarlari to‘g‘risida",
+        "en": "Official trips within Uzbekistan"
+      },
+      "category": "staff",
+      "updated": "2026-07-03",
+      "downloads": 1423,
+      "formats": [
+        "csv",
+        "json"
+      ],
+      "frequency": "yearly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0011",
+      "url": "/opendata/smeta",
+      "title": {
+        "ru": "Смета расходов Агентства и её исполнение",
+        "uz": "Агентликнинг харажатлар сметаси ва унинг ижроси тўғрисида маълумот",
+        "oz": "Agentlikning xarajatlar smetasi va uning ijrosi to‘g‘risida ma’lumot",
+        "en": "The Agency’s expenditure estimate and its execution"
+      },
+      "category": "budget",
+      "updated": "2026-07-03",
+      "downloads": 1479,
+      "formats": [
+        "csv",
+        "xlsx"
+      ],
+      "frequency": "quarterly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0010",
+      "url": "/opendata/ochiq-byudjet",
+      "title": {
+        "ru": "Открытый бюджет",
+        "uz": "Очиқ бюджет",
+        "oz": "Ochiq byudjet",
+        "en": "Open budget"
+      },
+      "category": "budget",
+      "updated": "2026-04-03",
+      "downloads": 2064,
+      "formats": [
+        "xlsx",
+        "json"
+      ],
+      "frequency": "quarterly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0023",
+      "url": "/opendata/xarid-reja",
+      "title": {
+        "ru": "Планирование государственных закупок",
+        "uz": "Давлат харидини режалаштириш",
+        "oz": "Davlat xaridini rejalashtirish",
+        "en": "Public procurement planning"
+      },
+      "category": "procurement",
+      "updated": "2025-07-18",
+      "downloads": 807,
+      "formats": [
+        "xlsx"
+      ],
+      "frequency": "yearly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    },
+    {
+      "id": "aca-od-0024",
+      "url": "/opendata/xarid-komissiya",
+      "title": {
+        "ru": "Внутренний порядок (положение) закупочной комиссии",
+        "uz": "Давлат харидларини амалга ошириш тартиб-таомилларини белгиловчи харид комиссиясининг ички идоравий тартиби (низоми)",
+        "oz": "Davlat xaridlarini amalga oshirish tartib-taomillarini belgilovchi xarid komissiyasining ichki idoraviy tartibi (nizomi)",
+        "en": "Internal rules (statute) of the procurement commission"
+      },
+      "category": "procurement",
+      "updated": "2025-07-02",
+      "downloads": 1266,
+      "formats": [
+        "pdf"
+      ],
+      "frequency": "yearly",
+      "legal_basis": "UP-6247, annex 1",
+      "responsible": {
+        "unit": "Финансово-экономический отдел Агентства",
+        "phone": "+998712020402",
+        "email": "opendata@anticorruption.uz"
+      }
+    }
+  ]
+}

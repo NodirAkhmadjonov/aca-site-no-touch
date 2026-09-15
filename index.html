@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Агентство по противодействию коррупции — предложение по оформлению сайта</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tokens.css?v=46">
+<link rel="stylesheet" href="base.css?v=46">
+<style>
+  .swatches{display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+    gap:var(--space-3); margin-top:var(--space-4)}
+  .sw{border:1px solid var(--border); border-radius:var(--radius); overflow:hidden;
+    background:var(--card)}
+  .sw-chip{height:64px}
+  .sw-meta{padding:var(--space-3); font-size:13px; line-height:1.5}
+  .sw-meta code{font-weight:700; color:var(--navy); font-size:13.5px}
+  .sw-meta span{display:block; color:var(--muted-fg); margin-top:2px}
+
+  .tlangs{display:flex; gap:6px; margin-top:auto; padding-top:var(--space-2)}
+  .tlangs a{font-size:12px; font-weight:600; color:var(--accent);
+    text-decoration:none; padding:3px 9px; border:1px solid var(--border);
+    border-radius:999px; line-height:1.6}
+  .tlangs a:hover{background:var(--accent); color:#fff; border-color:var(--accent)}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Перейти к основному содержанию</a>
+
+<header class="header">
+  <div class="container header-main">
+    <a class="brand" href="index.html">
+      <img class="emblem" src="img/logo.svg" alt="" width="56" height="59" decoding="async">
+      <span>
+        <p class="brand-name">ACA Design System</p>
+        <p class="brand-sub">Прототипы страниц · aca.uz</p>
+      </span>
+    </a>
+  </div>
+</header>
+
+<main id="main">
+  <div class="container">
+
+    <div class="page-head">
+      <h1>Прототипы страниц</h1>
+      <p class="lede">Единая дизайн-система для aca.uz. Все страницы используют <code>tokens.css</code> и
+      <code>base.css</code> — общий источник значений.</p>
+    </div>
+
+    <section class="section-sm">
+      <div class="section-head"><h2>aca.uz — основные</h2></div>
+      <div class="grid-3">
+        <div class="tile"><h3>Главная</h3>
+          <p>Слайдер с фотографиями, услуги, новости, опросы</p><div class="tlangs"><a href="aca-home-ru.html">RU</a><a href="aca-home-oz.html">OZ</a><a href="aca-home-uz.html">UZ</a><a href="aca-home-en.html">EN</a></div></div>
+        <div class="tile"><h3>Об Агентстве</h3>
+          <p>Задачи, правовая основа, принципы; руководство — отдельным разделом</p><div class="tlangs"><a href="aca-about-ru.html">RU</a><a href="aca-about-oz.html">OZ</a><a href="aca-about-uz.html">UZ</a><a href="aca-about-en.html">EN</a></div></div>
+        <div class="tile"><h3>Деятельность</h3>
+          <p>Направления работы, показатели, отчёты</p><div class="tlangs"><a href="aca-activity-ru.html">RU</a><a href="aca-activity-oz.html">OZ</a><a href="aca-activity-uz.html">UZ</a><a href="aca-activity-en.html">EN</a></div></div>
+        <div class="tile"><h3>Новости</h3>
+          <p>Список с фильтрами, реальные фотографии</p><div class="tlangs"><a href="aca-news-ru.html">RU</a><a href="aca-news-oz.html">OZ</a><a href="aca-news-uz.html">UZ</a><a href="aca-news-en.html">EN</a></div></div>
+        <div class="tile"><h3>Новость</h3>
+          <p>Страница материала, типографика длинного текста</p><div class="tlangs"><a href="aca-article-ru.html">RU</a><a href="aca-article-oz.html">OZ</a><a href="aca-article-uz.html">UZ</a><a href="aca-article-en.html">EN</a></div></div>
+        <div class="tile"><h3>Документы</h3>
+          <p>Нормативно-правовые акты, таблица со скачиванием</p><div class="tlangs"><a href="aca-documents-ru.html">RU</a><a href="aca-documents-oz.html">OZ</a><a href="aca-documents-uz.html">UZ</a><a href="aca-documents-en.html">EN</a></div></div>
+        <div class="tile"><h3>Открытые данные</h3>
+          <p>Наборы данных, форматы выгрузки, счётчики</p><div class="tlangs"><a href="aca-opendata-ru.html">RU</a><a href="aca-opendata-oz.html">OZ</a><a href="aca-opendata-uz.html">UZ</a><a href="aca-opendata-en.html">EN</a></div></div>
+        <div class="tile"><h3>Контакты</h3>
+          <p>Телефоны, карта, приём граждан</p><div class="tlangs"><a href="aca-contacts-ru.html">RU</a><a href="aca-contacts-oz.html">OZ</a><a href="aca-contacts-uz.html">UZ</a><a href="aca-contacts-en.html">EN</a></div></div>
+      </div>
+    </section>
+
+    <section class="section-sm">
+      <div class="section-head">
+        <h2>aca.uz — внутренние страницы</h2>
+        <p>Раздел «Об Агентстве», «Деятельность», «Пресс-служба» и справочные разделы.</p>
+      </div>
+      <div class="grid-4">
+        <div class="tile"><h3>Руководство</h3><div class="tlangs"><a href="aca-leadership-ru.html">RU</a><a href="aca-leadership-oz.html">OZ</a><a href="aca-leadership-uz.html">UZ</a><a href="aca-leadership-en.html">EN</a></div></div>
+        <div class="tile"><h3>Структура Агентства</h3><div class="tlangs"><a href="aca-structure-ru.html">RU</a><a href="aca-structure-oz.html">OZ</a><a href="aca-structure-uz.html">UZ</a><a href="aca-structure-en.html">EN</a></div></div>
+        <div class="tile"><h3>Структурные подразделения</h3><div class="tlangs"><a href="aca-subdivisions-ru.html">RU</a><a href="aca-subdivisions-oz.html">OZ</a><a href="aca-subdivisions-uz.html">UZ</a><a href="aca-subdivisions-en.html">EN</a></div></div>
+        <div class="tile"><h3>Координационные органы</h3><div class="tlangs"><a href="aca-councils-ru.html">RU</a><a href="aca-councils-oz.html">OZ</a><a href="aca-councils-uz.html">UZ</a><a href="aca-councils-en.html">EN</a></div></div>
+        <div class="tile"><h3>Общественный совет</h3><div class="tlangs"><a href="aca-public-council-ru.html">RU</a><a href="aca-public-council-oz.html">OZ</a><a href="aca-public-council-uz.html">UZ</a><a href="aca-public-council-en.html">EN</a></div></div>
+        <div class="tile"><h3>Экспертный совет</h3><div class="tlangs"><a href="aca-council-ru.html">RU</a><a href="aca-council-oz.html">OZ</a><a href="aca-council-uz.html">UZ</a><a href="aca-council-en.html">EN</a></div></div>
+        <div class="tile"><h3>Протоколы Общественного совета</h3><div class="tlangs"><a href="aca-council-docs-ru.html">RU</a><a href="aca-council-docs-oz.html">OZ</a><a href="aca-council-docs-uz.html">UZ</a><a href="aca-council-docs-en.html">EN</a></div></div>
+        <div class="tile"><h3>Порядок приёма обращений</h3><div class="tlangs"><a href="aca-appeals-order-ru.html">RU</a><a href="aca-appeals-order-oz.html">OZ</a><a href="aca-appeals-order-uz.html">UZ</a><a href="aca-appeals-order-en.html">EN</a></div></div>
+        <div class="tile"><h3>Личный приём</h3><div class="tlangs"><a href="aca-reception-ru.html">RU</a><a href="aca-reception-oz.html">OZ</a><a href="aca-reception-uz.html">UZ</a><a href="aca-reception-en.html">EN</a></div></div>
+        <div class="tile"><h3>Анализ обращений</h3><div class="tlangs"><a href="aca-appeals-stats-ru.html">RU</a><a href="aca-appeals-stats-oz.html">OZ</a><a href="aca-appeals-stats-uz.html">UZ</a><a href="aca-appeals-stats-en.html">EN</a></div></div>
+        <div class="tile"><h3>Фото- и видеогалерея</h3><div class="tlangs"><a href="aca-gallery-ru.html">RU</a><a href="aca-gallery-oz.html">OZ</a><a href="aca-gallery-uz.html">UZ</a><a href="aca-gallery-en.html">EN</a></div></div>
+        <div class="tile"><h3>Фоторепортаж</h3><div class="tlangs"><a href="aca-photo-report-ru.html">RU</a><a href="aca-photo-report-oz.html">OZ</a><a href="aca-photo-report-uz.html">UZ</a><a href="aca-photo-report-en.html">EN</a></div></div>
+        <div class="tile"><h3>Отчёты и статистика</h3><div class="tlangs"><a href="aca-reports-ru.html">RU</a><a href="aca-reports-oz.html">OZ</a><a href="aca-reports-uz.html">UZ</a><a href="aca-reports-en.html">EN</a></div></div>
+        <div class="tile"><h3>Государственные программы</h3><div class="tlangs"><a href="aca-programs-ru.html">RU</a><a href="aca-programs-oz.html">OZ</a><a href="aca-programs-uz.html">UZ</a><a href="aca-programs-en.html">EN</a></div></div>
+        <div class="tile"><h3>Комплаенс-контроль</h3><div class="tlangs"><a href="aca-compliance-ru.html">RU</a><a href="aca-compliance-oz.html">OZ</a><a href="aca-compliance-uz.html">UZ</a><a href="aca-compliance-en.html">EN</a></div></div>
+        <div class="tile"><h3>Мониторинг и анализ</h3><div class="tlangs"><a href="aca-monitoring-ru.html">RU</a><a href="aca-monitoring-oz.html">OZ</a><a href="aca-monitoring-uz.html">UZ</a><a href="aca-monitoring-en.html">EN</a></div></div>
+        <div class="tile"><h3>Декларирование доходов</h3><div class="tlangs"><a href="aca-declaration-ru.html">RU</a><a href="aca-declaration-oz.html">OZ</a><a href="aca-declaration-uz.html">UZ</a><a href="aca-declaration-en.html">EN</a></div></div>
+        <div class="tile"><h3>Международное сотрудничество</h3><div class="tlangs"><a href="aca-international-ru.html">RU</a><a href="aca-international-oz.html">OZ</a><a href="aca-international-uz.html">UZ</a><a href="aca-international-en.html">EN</a></div></div>
+        <div class="tile"><h3>Гражданское общество</h3><div class="tlangs"><a href="aca-civil-society-ru.html">RU</a><a href="aca-civil-society-oz.html">OZ</a><a href="aca-civil-society-uz.html">UZ</a><a href="aca-civil-society-en.html">EN</a></div></div>
+        <div class="tile"><h3>Речи и доклады</h3><div class="tlangs"><a href="aca-speeches-ru.html">RU</a><a href="aca-speeches-oz.html">OZ</a><a href="aca-speeches-uz.html">UZ</a><a href="aca-speeches-en.html">EN</a></div></div>
+        <div class="tile"><h3>Объявления</h3><div class="tlangs"><a href="aca-announcements-ru.html">RU</a><a href="aca-announcements-oz.html">OZ</a><a href="aca-announcements-uz.html">UZ</a><a href="aca-announcements-en.html">EN</a></div></div>
+        <div class="tile"><h3>Исследования</h3><div class="tlangs"><a href="aca-research-ru.html">RU</a><a href="aca-research-oz.html">OZ</a><a href="aca-research-uz.html">UZ</a><a href="aca-research-en.html">EN</a></div></div>
+        <div class="tile"><h3>Электронная библиотека</h3><div class="tlangs"><a href="aca-library-ru.html">RU</a><a href="aca-library-oz.html">OZ</a><a href="aca-library-uz.html">UZ</a><a href="aca-library-en.html">EN</a></div></div>
+        <div class="tile"><h3>Часто задаваемые вопросы</h3><div class="tlangs"><a href="aca-faq-ru.html">RU</a><a href="aca-faq-oz.html">OZ</a><a href="aca-faq-uz.html">UZ</a><a href="aca-faq-en.html">EN</a></div></div>
+        <div class="tile"><h3>Противодействие коррупции в Агентстве</h3><div class="tlangs"><a href="aca-anticorruption-ru.html">RU</a><a href="aca-anticorruption-oz.html">OZ</a><a href="aca-anticorruption-uz.html">UZ</a><a href="aca-anticorruption-en.html">EN</a></div></div>
+        <div class="tile"><h3>Экоактивный сотрудник</h3><div class="tlangs"><a href="aca-ecoactive-ru.html">RU</a><a href="aca-ecoactive-oz.html">OZ</a><a href="aca-ecoactive-uz.html">UZ</a><a href="aca-ecoactive-en.html">EN</a></div></div>
+        <div class="tile"><h3>Отчётные заседания (коллегия)</h3><div class="tlangs"><a href="aca-collegium-ru.html">RU</a><a href="aca-collegium-oz.html">OZ</a><a href="aca-collegium-uz.html">UZ</a><a href="aca-collegium-en.html">EN</a></div></div>
+        <div class="tile"><h3>Исполнение законодательных актов</h3><div class="tlangs"><a href="aca-law-execution-ru.html">RU</a><a href="aca-law-execution-oz.html">OZ</a><a href="aca-law-execution-uz.html">UZ</a><a href="aca-law-execution-en.html">EN</a></div></div>
+        <div class="tile"><h3>Открытый аукцион</h3><div class="tlangs"><a href="aca-auction-ru.html">RU</a><a href="aca-auction-oz.html">OZ</a><a href="aca-auction-uz.html">UZ</a><a href="aca-auction-en.html">EN</a></div></div>
+        <div class="tile"><h3>Результаты обращений (в реальном времени)</h3><div class="tlangs"><a href="aca-appeals-results-ru.html">RU</a><a href="aca-appeals-results-oz.html">OZ</a><a href="aca-appeals-results-uz.html">UZ</a><a href="aca-appeals-results-en.html">EN</a></div></div>
+        <div class="tile"><h3>Инфографика</h3><div class="tlangs"><a href="aca-infographics-ru.html">RU</a><a href="aca-infographics-oz.html">OZ</a><a href="aca-infographics-uz.html">UZ</a><a href="aca-infographics-en.html">EN</a></div></div>
+        <div class="tile"><h3>Запись на приём к руководству</h3><div class="tlangs"><a href="aca-booking-ru.html">RU</a><a href="aca-booking-oz.html">OZ</a><a href="aca-booking-uz.html">UZ</a><a href="aca-booking-en.html">EN</a></div></div>
+        <div class="tile"><h3>Панель приёмной (для сотрудников)</h3><div class="tlangs"><a href="aca-reception-desk-ru.html">RU</a><a href="aca-reception-desk-oz.html">OZ</a><a href="aca-reception-desk-uz.html">UZ</a><a href="aca-reception-desk-en.html">EN</a></div></div>
+        <div class="tile"><h3>Видео: субтитры и сурдоперевод</h3><div class="tlangs"><a href="aca-video-ru.html">RU</a><a href="aca-video-oz.html">OZ</a><a href="aca-video-uz.html">UZ</a><a href="aca-video-en.html">EN</a></div></div>
+      </div>
+    </section>
+
+    
+
+    
+
+    <section class="section-sm">
+      <div class="section-head">
+        <h2>Основные значения</h2>
+        <p>Заданы один раз в <code>tokens.css</code>. Изменение значения
+        меняет все страницы сразу.</p>
+      </div>
+      <div class="swatches">
+        <div class="sw"><div class="sw-chip" style="background:var(--aca-blue-600)"></div>
+          <div class="sw-meta"><code>#0244C6</code><span>Основной · 7,94:1 · AAA</span></div></div>
+        <div class="sw"><div class="sw-chip" style="background:var(--aca-blue-700)"></div>
+          <div class="sw-meta"><code>#0138A3</code><span>Ссылки · 9,93:1 · AAA</span></div></div>
+        <div class="sw"><div class="sw-chip" style="background:var(--aca-ink-900)"></div>
+          <div class="sw-meta"><code>#0F172A</code><span>Тёмный фон</span></div></div>
+        <div class="sw"><div class="sw-chip" style="background:var(--aca-chart-1)"></div>
+          <div class="sw-meta"><code>#6B94E8</code><span>График · шаг 1</span></div></div>
+        <div class="sw"><div class="sw-chip" style="background:var(--aca-chart-2)"></div>
+          <div class="sw-meta"><code>#2E62D4</code><span>График · шаг 2</span></div></div>
+        <div class="sw"><div class="sw-chip" style="background:var(--aca-chart-3)"></div>
+          <div class="sw-meta"><code>#01277A</code><span>График · шаг 3</span></div></div>
+      </div>
+    </section>
+
+    <div class="notice notice-info">
+      <span class="notice-icon" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+      </span>
+      <div>
+        <h3>Демонстрационная версия для согласования</h3>
+        <p>Оформление и структура — в том виде, в каком предлагаются
+        к внедрению. Часть текстов и числовых значений приведена
+        для примера и будет заменена данными Агентства.</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border:0; padding-top:0">
+      <p style="margin:0">ACA Design System · прототипы · 2026</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

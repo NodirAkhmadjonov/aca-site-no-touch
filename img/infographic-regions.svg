@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#0244C6"/>
+  <rect x="40" y="40" width="1120" height="720" rx="28" fill="none" stroke="#6B94E8" stroke-width="2"/>
+  <text x="120" y="540" font-family="Golos Text, Arial, sans-serif" font-size="380" font-weight="800" fill="#FFFFFF">14</text>
+  <defs>
+    <g id="pin"><path d="M0 -60a40 40 0 0140 40c0 30-40 70-40 70s-40-40-40-70a40 40 0 0140-40z" fill="#FFFFFF"/><circle cy="-20" r="14" fill="#0244C6"/></g>
+  </defs>
+  <!-- fourteen map pins, 5 + 5 + 4 -->
+  <g>
+    <use href="#pin" x="640" y="230"/><use href="#pin" x="740" y="230"/><use href="#pin" x="840" y="230"/><use href="#pin" x="940" y="230"/><use href="#pin" x="1040" y="230"/>
+    <use href="#pin" x="640" y="400"/><use href="#pin" x="740" y="400"/><use href="#pin" x="840" y="400"/><use href="#pin" x="940" y="400"/><use href="#pin" x="1040" y="400"/>
+    <use href="#pin" x="690" y="570"/><use href="#pin" x="790" y="570"/><use href="#pin" x="890" y="570"/><use href="#pin" x="990" y="570"/>
+  </g>
+</svg>

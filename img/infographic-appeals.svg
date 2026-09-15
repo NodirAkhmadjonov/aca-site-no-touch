@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <rect width="1200" height="800" fill="#F4F4F4"/>
+  <rect x="40" y="40" width="1120" height="720" rx="28" fill="#FFFFFF" stroke="#D9D9DB" stroke-width="2"/>
+  <rect x="40" y="40" width="1120" height="16" rx="8" fill="#0244C6"/>
+  <g fill="#0244C6">
+    <rect x="130" y="170" width="150" height="190" rx="14" fill="#E6EDFB"/>
+    <rect x="150" y="150" width="150" height="190" rx="14" fill="#C4D5F6"/>
+    <rect x="170" y="130" width="150" height="190" rx="14"/>
+    <rect x="200" y="175" width="90" height="12" rx="6" fill="#FFFFFF"/>
+    <rect x="200" y="205" width="90" height="12" rx="6" fill="#FFFFFF"/>
+    <rect x="200" y="235" width="60" height="12" rx="6" fill="#FFFFFF"/>
+  </g>
+  <text x="130" y="560" font-family="Golos Text, Arial, sans-serif" font-size="210" font-weight="800" fill="#091123">12 610</text>
+  <g fill="#6B94E8">
+    <rect x="780" y="420" width="44" height="140" rx="6"/>
+    <rect x="840" y="400" width="44" height="160" rx="6"/>
+    <rect x="900" y="380" width="44" height="180" rx="6"/>
+    <rect x="960" y="370" width="44" height="190" rx="6"/>
+    <rect x="1020" y="360" width="44" height="200" rx="6" fill="#2E62D4"/>
+    <rect x="1080" y="350" width="44" height="210" rx="6" fill="#01277A"/>
+  </g>
+  <rect x="130" y="620" width="940" height="6" rx="3" fill="#D9D9DB"/>
+  <text x="130" y="700" font-family="Golos Text, Arial, sans-serif" font-size="56" font-weight="700" fill="#0244C6">2026 · I–VI</text>
+</svg>
